@@ -1,0 +1,17 @@
+{
+  "name": "markdown-engine",
+  "version": "1.0.0",
+  "description": "A markdown parser and renderer built from scratch in TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["markdown", "parser", "renderer", "html"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  }
+}
