@@ -6,7 +6,7 @@ import { Plugin, RendererOptions, AST } from './types';
 export { Lexer } from './lexer';
 export { Parser } from './parser';
 export { Renderer } from './renderer';
-export { TokenType, Token, Node, AST, Plugin } from './types';
+export { TokenType, Token, Node, AST, Plugin, RendererOptions, ParserOptions, LexerOptions } from './types';
 export { escapeHtml, unescapeHtml, encodeUrl, decodeUrl } from './utils/escape';
 export { tablePlugin } from './plugins/tablePlugin';
 export { codeBlockPlugin } from './plugins/codeBlockPlugin';
