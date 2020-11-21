@@ -103,3 +103,25 @@ interface Plugin {
 ## License
 
 MIT
+
+---
+
+## 🇫🇷 Documentation en français
+
+### Description
+`markdown-engine` est un parseur et moteur de rendu Markdown construit from scratch en TypeScript, sans aucune dépendance externe. Il offre un accès complet à l'AST (arbre syntaxique abstrait) et un système de plugins pour personnaliser la tokenisation, le parsing et le rendu.
+
+### Installation
+```bash
+npm install markdown-engine
+```
+
+### Utilisation
+```typescript
+import { render } from 'markdown-engine';
+
+const html = render('# Bonjour **le monde**');
+// <h1 id="bonjour-le-monde">Bonjour <strong>le monde</strong></h1>
+```
+
+Consultez la documentation anglaise ci-dessus pour l'API complète (Lexer, Parser, Renderer) et le système de plugins.
